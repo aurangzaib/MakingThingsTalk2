@@ -13,6 +13,7 @@ long blinkTimer = 0;         // keeps track of how long since the LED
 int blinkInterval = 1000;    // a full second from on to off to on again
 
 void setup() {
+
   pinMode(LEDPin, OUTPUT);    // set pin 13 to be an output
   Serial.begin(9600);         // configure the serial port for 9600 bps 
                               // data rate.
